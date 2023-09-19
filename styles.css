@@ -26,3 +26,38 @@
   font-weight: bold;
   font-size: 20px; 
 }
+
+/* Navigation Bar */
+.nav-bar {
+  background-color: black;
+  height: 30px;
+} 
+.nav-bar-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-bar-item li {
+  padding-left:10px ;
+  padding-top: 5px;
+}
+.nav-bar-item a {
+  text-decoration: none;
+  color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom:4px ;
+}
+a.nav-bar-item-beranda {
+  padding-left: 10px !important;
+}
+a.nav-bar-item-kontak {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+.nav-bar-item a:hover {
+  background-color: rgb(63, 87, 81);
+}
+.nav-bar-item a:active {
+  color: darkgoldenrod;
+}
