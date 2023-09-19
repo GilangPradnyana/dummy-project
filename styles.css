@@ -1,10 +1,28 @@
 /* Header */
-header {
+.header {
   display: flex;
   border: 2px solid;
   background-color: beige !important;
 }
-.header-image img{
-  width: 150px;
+.header-logo img{
+  width: 180px;
+  height: 130px;
   background-color: beige !important;
+} 
+.header-logo {
+  padding: 10px;
+  margin-top:auto ;
+  margin-bottom:auto ;
+}
+/* logo link */
+.header-title {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.header-title a {
+  font-family: Arial;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px; 
 }
