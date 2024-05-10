@@ -57,6 +57,7 @@ a.nav-bar-item-kontak {
 }
 .nav-bar-item a:hover {
   background-color: rgb(63, 87, 81);
+  
 }
 .nav-bar-item a:active {
   color: darkgoldenrod;
